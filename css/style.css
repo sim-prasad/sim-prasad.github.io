@@ -1,0 +1,42 @@
+body {
+background-color: IndianRed;
+font-size: 20px;
+}
+
+h1{
+font-size: 40px;
+color: White;
+font-family:sans-serif;
+text-align: center;
+text-decoration: overline;
+letter-spacing: 3px;
+text-shadow: 3px 2px black
+
+}
+
+
+h2{
+font-size: 30px;
+color: White;
+font-family:sans-serif;
+text-align: center;
+text-decoration: underline;
+letter-spacing: 3px;
+text-shadow: 3px 2px black
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+p{
+  font-size: 20px;
+  color: White;
+  font-family:sans-serif;
+  text-align: center;
+
+
+}
