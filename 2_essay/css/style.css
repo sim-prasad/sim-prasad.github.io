@@ -10,19 +10,18 @@ font-family:sans-serif;
 text-align: center;
 text-decoration: overline;
 letter-spacing: 3px;
-text-shadow: 3px 2px black
+text-shadow: 3px 2px black;
+margin-right: 80px;
+margin-left: 80px;
 
 }
 
-h2{
-font-size: 30px;
-color: White;
-font-family:sans-serif;
-text-align: center;
-text-decoration: underline;
-letter-spacing: 3px;
-text-shadow: 3px 2px black
-
+h2 {
+  font-size: 20px;
+  color: IndianRed;
+  font-family:sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
 h3{
@@ -31,7 +30,8 @@ color: White;
 font-family:sans-serif;
 text-align: center;
 letter-spacing: 3px;
-text-shadow: 3px 2px black
+text-shadow: 3px 2px black;
+text-decoration: underline;
 
 }
 
@@ -39,7 +39,9 @@ p{
   font-size: 20px;
   color: White;
   font-family:sans-serif;
-  text-align: center;
+  text-align: justify;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 
@@ -50,5 +52,17 @@ blockquote{
   font-size: 30px;
   border: 2px solid White;
   background-color: White;
+  margin-right: 80px;
+  margin-left: 80px;
+
+}
+
+ul{
+  font-size: 20px;
+  color: White;
+  font-family:sans-serif;
+  text-align: left;
+  margin-right: 80px;
+  margin-left: 80px;
 
 }
