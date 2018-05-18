@@ -9,29 +9,21 @@ $(document).ready(function() {
     });
   //*the button actions are below... *//
 
-$('.b-full').click(function(){
+$('.b-covers').click(function(){
   $('.item').addClass('hide');
   $('.item').removeClass('show');
 
-  $('.item.full').addClass('show');
-  $('.item.full').removeClass('hide');
+  $('.item.covers').addClass('show');
+  $('.item.covers').removeClass('hide');
 });
 
 
-$('.b-vogue').click(function(){
+$('.b-headlines').click(function(){
   $('.item').addClass('hide');
   $('.item').removeClass('show');
 
-  $('.item.vogue').addClass('show');
-  $('.item.vogue').removeClass('hide');
-});
-
-$('.b-text').click(function(){
-  $('.item').addClass('hide');
-  $('.item').removeClass('show');
-
-  $('.item.text').addClass('show');
-  $('.item.text').removeClass('hide');
+  $('.item.headlines').addClass('show');
+  $('.item.headlines').removeClass('hide');
 });
 
 $('.b-models').click(function(){
@@ -44,19 +36,14 @@ $('.b-models').click(function(){
 
 
 
-
 // sample
 
 $('.sample').click(function(){
 
-  $('.item.red').addClass('show');
-  $('.item.red').removeClass('col3of4');
-  $('.item.red').removeClass('hide');
 });
 
 $('.sample').addClass('classname');
 $('.sample').removeClass('classname');
-
 
 
 // dont remove line

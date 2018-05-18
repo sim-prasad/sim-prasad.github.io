@@ -1,3 +1,83 @@
 body {
-background-color: red;
+  color: black;
+  font-size:50px;
+}
+
+.header {
+  position: fixed;
+  top:10px;
+  text-align: center;
+  text-decoration: overline;
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: blue;
+  font-family: verdana;
+  letter-spacing: 3px;
+  width:100%;
+  z-index: 2;
+}
+
+.panel {
+  width: 50vw;
+  height:100vh;
+}
+
+.left {
+  background-color: white;
+}
+
+.row.memes .item {
+  width: 20%;
+  padding:5px;
+
+}
+
+.item img{
+max-width: 500%;
+height: auto;
+display: block;
+padding:5px;
+margin-bottom: 30px;
+margin-top: 30px;
+
+}
+
+.right {
+  background-color: white;
+  position: fixed;
+  right:0;
+  top:0;
+}
+
+.row.text .item {
+  display: block;
+  padding:5px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-family: verdana;
+  width:100%;
+  height: auto;
+}
+
+.item.yellow {
+  background: yellow;
+  border: 100px solid yellow;
+}
+
+.item.red {
+  background: red;
+  border: 100px solid red;
+}
+
+.item.blue {
+  background: lightblue;
+  border: 100px solid lightblue;
+}
+
+.item.pink {
+  background: pink;
+  border: 100px solid pink;
 }
