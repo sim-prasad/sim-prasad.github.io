@@ -6,15 +6,16 @@ body {
 .header {
   position: fixed;
   top:10px;
-  text-align: center;
+  right:10px;
+  text-align: right;
   text-decoration: overline;
-  font-size: 5vw;
+  font-size: 2.5vw;
   text-transform: uppercase;
-  color: blue;
+  color: #4addd2;
   font-family: verdana;
   letter-spacing: 3px;
   width:100%;
-  z-index: 2;
+  z-index: 100;
 }
 
 .panel {
@@ -24,52 +25,35 @@ body {
 
 .left {
   background-color: white;
-}
-
-.row.memes .item {
-  width: 20%;
-  padding:5px;
-
-}
-
-.item img{
-max-width: 500%;
-height: auto;
-display: block;
-padding:5px;
-margin-bottom: 30px;
-margin-top: 30px;
-
-}
-
-.right {
-  background-color: white;
+  width: 50vw;
+  height: 100vh;
   position: fixed;
-  right:0;
-  top:0;
+  overflow: scroll;
+  z-index: 99;
 }
+
 
 .row.text .item {
-  display: block;
-  padding:5px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: black;
-  font-family: verdana;
-  width:100%;
+  width: 49vw;
   height: auto;
+  padding:10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: verdana;
 }
 
-.item.yellow {
-  background: yellow;
-  border: 100px solid yellow;
+.item.rp {
+  background: rebeccapurple;
+  border: 100px solid rebeccapurple;
 }
 
 .item.red {
   background: red;
   border: 100px solid red;
+  outline: dotted red;
 }
 
 .item.blue {
@@ -80,4 +64,50 @@ margin-top: 30px;
 .item.pink {
   background: pink;
   border: 100px solid pink;
+}
+
+.right {
+  background-color: white;
+  width: 50vw;
+}
+
+.horizontal-scroll-wrapper {
+  position: absolute;
+  display: block;
+  top:0%;
+  right:-60px;
+  width: 40vw;
+  height:100vh;
+  overflow: scroll;
+  -webkit-transform: rotate(-90deg) translateY(-250px) translateX(0px);
+          transform: rotate(-90deg) translateY(-76px) translateX(0px);
+  -webkit-transform-origin: right center top;
+          transform-origin: right center top;
+}
+
+.horizontal-scroll-wrapper > div {
+  padding: 5px;
+  background: white;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+          height: 600px;
+}
+
+.horizontal-scroll-wrapper > div img{
+width:100%;
+}
+
+.word{
+    width: 30vw;
+    color: white;
+    font-family: verdana;
+    font-size: 50px;
+    line-height: 50px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 10vw;
+    z-index: 5;
 }
