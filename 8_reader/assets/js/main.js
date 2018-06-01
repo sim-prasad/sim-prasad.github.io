@@ -1,44 +1,45 @@
 $(document).ready(function() {
 
 
-  $('.r-fashion').mouseenter(function() {
-     $('.p-fashion').addClass('p-show');
+  $('.m-frog').mouseenter(function() {
+     $('.c-frog').addClass('c-show');
    });
 
- $('.r-fashion').mouseleave(function() {
-     $('.p-fashion').removeClass('p-show');
-   });
-
-
-
-  $('.r-language').mouseenter(function() {
-     $('.p-language').addClass('p-show');
-   });
-
- $('.r-language').mouseleave(function() {
-     $('.p-language').removeClass('p-show');
+ $('.m-frog').mouseleave(function() {
+     $('.c-frog').removeClass('c-show');
    });
 
 
 
 
-   $('.r-religion').mouseenter(function() {
-      $('.p-religion').addClass('p-show');
+
+  $('.m-bear').mouseenter(function() {
+     $('.c-bear').addClass('c-show');
+   });
+
+ $('.m-bear').mouseleave(function() {
+     $('.c-bear').removeClass('c-show');
+   });
+
+
+
+
+   $('.m-lion').mouseenter(function() {
+      $('.c-lion').addClass('c-show');
     });
 
-   $('.r-religion').mouseleave(function() {
-      $('.p-religion').removeClass('p-show');
+  $('.m-lion').mouseleave(function() {
+      $('.c-lion').removeClass('c-show');
     });
 
 
 
-
-    $('.r-sport').mouseenter(function() {
-       $('.p-sport').addClass('p-show');
+    $('.m-froggy').mouseenter(function() {
+       $('.c-froggy').addClass('c-show');
      });
 
-    $('.r-sport').mouseleave(function() {
-       $('.p-sport').removeClass('p-show');
+   $('.m-froggy').mouseleave(function() {
+       $('.c-froggy').removeClass('c-show');
      });
 
 
@@ -47,13 +48,5 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-  });
+// dont delete this
+ });
