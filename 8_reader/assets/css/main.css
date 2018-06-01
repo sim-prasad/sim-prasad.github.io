@@ -1,18 +1,20 @@
 body {
-  color: black;
-  font-size:50px;
+  background-color: black;
 }
 
 .header {
   position: fixed;
-  top:10px;
-  right:10px;
-  text-align: right;
+  transform: rotate(90deg);
+	transform-origin: left top 0;
+  float: left;
+  top:10%;
+  left:40px;
+  text-align: left;
   text-decoration: overline;
   font-size: 2.5vw;
   text-transform: uppercase;
   color: #4addd2;
-  font-family: verdana;
+  font-family: arial;
   letter-spacing: 3px;
   width:100%;
   z-index: 100;
@@ -34,36 +36,33 @@ body {
 
 
 .row.text .item {
-  width: 49vw;
+  width: 50vw;
   height: auto;
-  padding:10px;
+  padding:50px;
   margin-bottom: 40px;
   margin-top: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: white;
-  font-family: verdana;
+  color: black;
+  font-family: arial;
+  line-height: 23px;
 }
 
-.item.rp {
-  background: rebeccapurple;
-  border: 100px solid rebeccapurple;
+.item.first {
+  background: white;
+
 }
 
-.item.red {
-  background: red;
-  border: 100px solid red;
-  outline: dotted red;
+.item.second {
+  background: white;
 }
 
-.item.blue {
-  background: lightblue;
-  border: 100px solid lightblue;
+.item.third {
+  background: white;
 }
 
-.item.pink {
-  background: pink;
-  border: 100px solid pink;
+.item.fourth {
+  background: white;
 }
 
 .right {
