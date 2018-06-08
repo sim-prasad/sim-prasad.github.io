@@ -30,7 +30,7 @@ h2 {
 h3 {
 font-size: 30px;
 color: White;
-font-family:sans-serif;
+font-family:arial;
 text-align: center;
 text-decoration: overline;
 letter-spacing: 3px;
@@ -58,4 +58,32 @@ img {
     margin-left: auto;
     margin-right: auto;
 
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:Gainsboro;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: verdana;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color:IndianRed ;
 }
