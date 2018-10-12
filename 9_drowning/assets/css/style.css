@@ -5,23 +5,45 @@ font-size: 20px;
 
 .header {
   position: fixed;
-  top: 20px;
-  width:100%;
+  margin-top: 25%;
   text-align: center;
+  width:100%;
   text-transform: uppercase;
   font-size: 5vw;
   color: hotpink;
   font-family:arial;
-  text-shadow: 3px 3px grey;
+  text-shadow: 3px 3px lightgrey;
   letter-spacing: 3px;
   z-index: 2;
+  left:-45%;
+
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
+
+.header a {
+  text-decoration: none}
+
+  a:visited {
+      color: hotpink;
+      background-color: transparent;
+      text-decoration: none;
+  }
+.header :hover {
+    color: lightskyblue;
+}
+
 
 
 .drowning{
   padding: 100px;
+  padding-top: 10px;
   position: relative;
 }
+
 .cls-1 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 0;
@@ -410,5 +432,6 @@ li a {
 }
 
 li a:hover {
-    background-color: lightgrey;
-}
+    background-color: #DCDCDC ;
+    color: black;
+  }
