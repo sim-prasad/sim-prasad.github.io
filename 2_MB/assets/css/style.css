@@ -1,30 +1,99 @@
 body {
-background-color: lightgrey;
+background-color: white;
 font-size: 20px;
 }
 
-.header {
+.top {
   position: fixed;
-  top: 10px;
-  width:100%;
+  margin-top: 1%;
   text-align: center;
+  width:100%;
   text-transform: uppercase;
-  font-size: 3vw;
-  color: IndianRed;
-  font-family:verdana;
-  text-decoration: overline;
+  font-size: 5vw;
+  color: hotpink;
+  font-family:arial;
+  text-shadow: 3px 3px lightgrey;
   letter-spacing: 3px;
-  text-shadow: 3px 2px White;
   z-index: 2;
 }
 
+
+
+.left {
+  position: fixed;
+  margin-top: 22%;
+  text-align: center;
+  width:100%;
+  text-transform: uppercase;
+  font-size: 4vw;
+  color: hotpink;
+  font-family:arial;
+  text-shadow: 3px 3px lightgrey;
+  letter-spacing: 3px;
+  z-index: 2;
+  left:-45%;
+
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.right {
+  position: fixed;
+  margin-top: 22%;
+  text-align: center;
+  width:100%;
+  text-transform: uppercase;
+  font-size: 4vw;
+  color: hotpink;
+  font-family:arial;
+  text-shadow: 3px 3px lightgrey;
+  letter-spacing: 3px;
+  z-index: 2;
+  right:-45%;
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+blockquote{
+  font-size: 20px;
+  color: grey;
+  font-family:arial;
+  text-align: center;
+  border: 4px solid lightgrey;
+  font-style: italic;
+  padding: 20px;
+  margin-bottom: 8%;
+  margin-right: 50px;
+  margin-left:50px;
+
+}
+
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    position: relative;
+      z-index: 5;
+}
 
 ul {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
     overflow: hidden;
-    background-color:white;
+    background-color:Gainsboro;
 }
 
 li {
@@ -33,6 +102,7 @@ li {
 
 li a {
     display: block;
+    color: black;
     color: IndianRed;
     text-align: center;
     padding: 14px 16px;
@@ -44,30 +114,6 @@ li a {
 }
 
 li a:hover {
-    background-color: lightgrey;
-}
-
-
-img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-p{
-  font-size: 20px;
-  color: White;
-  font-family:verdana;
-  text-align: center;
-  margin-right: 80px;
-  margin-left: 80px;
-}
-
-
-blockquote{
-  border: 4px solid White;
+    background-color:IndianRed ;
+    background-color:black ;
 }

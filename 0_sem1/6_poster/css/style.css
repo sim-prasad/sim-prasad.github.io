@@ -41,26 +41,21 @@ h3 {
 
 .row{
 border-bottom: 1px solid white;
-
-
 }
 
 .col{
 float: left;
-
-
 }
 
 .col1of2{
   height: 100px;
 width: 50%;
-
 }
+
 .bg_pink {
 width: 50%;
 height: 100px;
 background-color: lightpink
-
 }
 
 .bg_blue {
@@ -72,25 +67,21 @@ background-color: lightblue
 
 .col1of3{
 width: 40%;
-
 }
+
 .bg_yellow {
 width: 40%;
 height: 660px;
 background-color: lightyellow;
 overflow: scroll;
-
 }
 
 
 .col1of4{
 width: 60%;
 }
-img {
-    max-width: 100%;
 
 }
-
 .col1of5{
 width: 50%;
 
@@ -99,13 +90,11 @@ width: 50%;
 width: 50%;
 background-color: plum;
 z-index: 10;
-
 }
 
 .bg_orange {
 width: 50%;
 background-color: orange
-
 }
 
 
