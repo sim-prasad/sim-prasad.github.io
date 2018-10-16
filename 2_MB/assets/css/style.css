@@ -120,7 +120,7 @@ blockquote{
     display: block;
     margin-top: 10px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 300px;
     padding: 50px;
 
       z-index: 5;
