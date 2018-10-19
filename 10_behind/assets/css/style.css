@@ -5,11 +5,11 @@ font-size: 20px;
 
 .header {
   position: absolute;
-  margin-top: 45%;
+  margin-top: 24%;
   text-align: center;
   width:100%;
   text-transform: uppercase;
-  font-size: 4vw;
+  font-size: 2vw;
   color: hotpink;
   font-family:arial;
   text-shadow: 3px 3px lightgrey;
@@ -214,6 +214,7 @@ blockquote{
   font-style: italic;
   padding: 50px;
   margin-left:110px;
+  margin-top:70px;
 }
 
 
@@ -223,7 +224,6 @@ img{
   height: auto;
   width:67%;
   margin-left:110px;
-  margin-top: 70px;
 }
 
 
