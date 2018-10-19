@@ -214,7 +214,6 @@ blockquote{
   font-style: italic;
   padding: 50px;
   margin-left:110px;
-  margin-top:50px;
 }
 
 
@@ -224,6 +223,7 @@ img{
   height: auto;
   width:67%;
   margin-left:110px;
+  margin-top: 70px;
 }
 
 
