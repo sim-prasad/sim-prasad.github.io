@@ -5,7 +5,7 @@ font-size: 20px;
 
 .header {
   position: fixed;
-  margin-top: 25%;
+  margin-top: 22%;
   text-align: center;
   width:100%;
   text-transform: uppercase;
@@ -15,7 +15,7 @@ font-size: 20px;
   text-shadow: 3px 3px lightgrey;
   letter-spacing: 3px;
   z-index: 2;
-  left:-45%;
+  left:-47%;
 
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -419,6 +419,46 @@ blockquote{
     stroke-dashoffset: 0;
   }
 }
+
+
+
+
+.col{
+float: left;
+}
+
+.col1of2{
+height: 550px;
+width: 50%;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+blockquote{
+  font-size: 30px;
+  color: grey;
+  font-family:arial;
+  text-align: center;
+  border: 4px solid lightgrey;
+  font-style: italic;
+  padding: 50px;
+  margin-left:110px;
+    margin-top:50px;
+}
+
+
+img{
+  display: block;
+  margin-top: 10px;
+  height: auto;
+  width:67%;
+  margin-left:110px;
+}
+
+
+
 
 ul {
     list-style-type: none;
