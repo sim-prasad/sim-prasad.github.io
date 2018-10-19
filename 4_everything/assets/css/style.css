@@ -104,7 +104,7 @@ height: 550px;
 width: 50%;
 padding-top: 10px;
 padding-bottom: 10px;
-
+margin-bottom: 100px;
 }
 
 
@@ -122,10 +122,10 @@ blockquote{
 
 img{
   display: block;
-  margin-top: 10px;
   height: auto;
   width:67%;
   margin-left:110px;
+  margin-top: 20px;
 }
 
 

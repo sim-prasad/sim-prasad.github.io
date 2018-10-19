@@ -4,7 +4,7 @@ font-size: 20px;
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   margin-top: 24%;
   text-align: center;
   width:100%;
@@ -201,7 +201,7 @@ height: 550px;
 width: 50%;
 padding-top: 10px;
 padding-bottom: 10px;
-
+margin-bottom: 100px;
 }
 
 

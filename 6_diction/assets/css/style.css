@@ -15,7 +15,7 @@ font-size: 20px;
   text-shadow: 3px 3px lightgrey;
   letter-spacing: 3px;
   z-index: 2;
-  left:-49%;
+  left:-48%;
 
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -151,7 +151,7 @@ height: 550px;
 width: 50%;
 padding-top: 10px;
 padding-bottom: 10px;
-
+margin-bottom: 100px;
 }
 
 
