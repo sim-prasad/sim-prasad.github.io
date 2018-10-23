@@ -5,13 +5,14 @@ font-size: 20px;
 
 .header {
   position: fixed;
-  margin-top: 24%;
+  margin-top: 24.5%;
   text-align: center;
   width:100%;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.45vw;
   color: hotpink;
-  font-family:arial;
+  font-weight: bold;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
   text-shadow: 3px 3px lightgrey;
   letter-spacing: 3px;
   z-index: 2;
@@ -37,18 +38,6 @@ font-size: 20px;
 }
 
 
-blockquote{
-  font-size: 20px;
-  color: grey;
-  font-family:arial;
-  text-align: center;
-  border: 4px solid lightgrey;
-  font-style: italic;
-  padding: 50px;
-  margin-top: 8%;
-  margin-right: 50px;
-  margin-left:50px;
-}
 
 
 .dog{
@@ -318,31 +307,29 @@ float: left;
 .col1of2{
 height: 550px;
 width: 50%;
-padding-top: 10px;
 padding-bottom: 10px;
-margin-bottom: 100px;
+margin-bottom: 150px;
 }
 
 
 blockquote{
   font-size: 30px;
   color: grey;
-  font-family:arial;
+  font-weight: bold;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
   text-align: center;
   border: 4px solid lightgrey;
-  font-style: italic;
   padding: 50px;
   margin-left:110px;
-margin-top:65px;
 }
 
 
 img{
   display: block;
-  margin-top: 10px;
   height: auto;
   width:67%;
   margin-left:110px;
+  margin-top: 25px;
 }
 
 

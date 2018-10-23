@@ -9,41 +9,14 @@ font-size: 20px;
   width:100%;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 4vw;
+  font-style: bold;
   color: White;
-  font-family:arial;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
   letter-spacing: 3px;
-  text-shadow: 3px 2px White;
+  text-shadow: 2px 2px White;
   z-index: 2;
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    overflow: hidden;
-    background-color:white;
-}
-
-li {
-    float: center;
-}
-
-li a {
-    display: block;
-    color: IndianRed;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: arial;
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-li a:hover {
-    background-color: lightgrey;
+  margin-bottom: 10px;
 }
 
 
@@ -59,27 +32,17 @@ img {
 h1{
   font-size: 20px;
   color: black;
-  font-family:arial;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
   text-align: center;
   text-transform:capitalize;
   margin-right: 80px;
   margin-left: 80px;
 }
 
-p{
-  font-size: 20px;
-  color: white;
-  font-family:arial;
-  text-align: center;
-  margin-right: 80px;
-  margin-left: 80px;
-}
-
 h2{
-  font-size: 25px;
-  color: white;
-  font-family:arial;
-  font-style: italic;
+  font-size: 50px;
+  color: black;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
   text-align: center;
   margin-right: 80px;
   margin-left: 80px;
@@ -93,7 +56,8 @@ blockquote{
   border: 4px solid white;
   font-style: italic;
   padding: 20px;
-  margin-top: 5%;
+  margin-top:7%;
+  margin-bottom:2%;
   margin-right: 50px;
   margin-left:50px;
 }
@@ -105,7 +69,7 @@ blockquote{
 
 
 .row{
-border-bottom: 1px solid white;
+
 }
 
 .col{
@@ -113,65 +77,65 @@ float: left;
 }
 
 .col1of2{
-height: 550px;
+height: 400px;
 width: 50%;
-padding-top: 20px;
-padding-bottom: 20px;
-}
-
-.bg_pink {
-width: 50%;
-height: 550px;
-background-color: lightpink;
-overflow: scroll;
-}
-
-.bg_blue {
-width: 50%;
-height: 550px;
-background-color: lightblue;
+padding-top: 30px;
+padding-bottom: 30px;
 overflow: scroll;
 }
 
 .col1of3{
 width: 40%;
-padding-top: 20px;
-padding-bottom: 20px;
-}
-
-.bg_orange {
-width: 40%;
-height: 660px;
-background-color:lightorange;
+height: 400px;
+padding-top: 30px;
+padding-bottom: 30px;
 overflow: scroll;
 }
 
 .col1of4{
 width: 60%;
-padding-top: 20px;
-padding-bottom: 20px;
+height: 405px;
+padding-top: 30px;
+padding-bottom: 30px;
+overflow: scroll;
 }
-
-.bg_green{
-  width: 60%;
-  height: 660px;
-  background-color: lightgreen;
-  overflow: scroll;
-}
-
 
 .col1of1{
 width: 100%;
-height: 450px;
-padding-top: 20px;
-padding-bottom: 20px;
+height: 250px;
+padding-top: 30px;
+padding-bottom: 30px;
+overflow: scroll;
 }
 
-.bg_purple {
-width: 100%;
-background-color: plum;
-z-index: 10;
+.col2of3{
+width: 75%;
+height: 250px;
+padding-top: 30px;
+padding-bottom: 30px;
 overflow: scroll;
+}
+
+
+
+.one {
+background-color: white;
+}
+
+.two {
+background-color: white;
+}
+
+.three {
+background-color:white;
+}
+
+.four{
+background-color: white;
+}
+
+.five {
+background-color: white;
 }
 
 
@@ -183,7 +147,7 @@ ul {
     margin: 10px;
     padding: 10px;
     overflow: hidden;
-    background-color:Gainsboro;
+    background-color:lightgrey;
 }
 
 li {
@@ -192,10 +156,10 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
-    font-family: verdana;
+    font-family: arial;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
@@ -203,5 +167,6 @@ li a {
 }
 
 li a:hover {
-    background-color:white ;
-}
+    background-color: white ;
+    color: black;
+  }
